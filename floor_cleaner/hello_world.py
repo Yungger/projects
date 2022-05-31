@@ -5,5 +5,5 @@ if __name__ == "__main__":
     import utime as time
     for _ in range(10):
         time.sleep(0.5)
-        print('Hello World !!')
+        print('Hello Yungger !!')
 
