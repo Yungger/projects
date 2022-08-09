@@ -5,14 +5,8 @@ USE_CONNECTOR = True   # True: 使用 WifiConnector 方式自動連網
 if USE_OTA:
     YOUR_PROJECT_PATH = 'https://filedn.com/lHUQcwGvamDSp5jubYW5QTF/maker/projects/floor_cleaner'   # 或加密的專案連網字串
 if not USE_CONNECTOR:
-    YOUR_WIFI_SSID = "VJKJ_211_plus"
-    YOUR_WIFI_PSWD = "jane0404"
-
-# 專案的客製程式碼
-def runProject():
-    print('\n開始: vvvvvvvv 專案的程式碼 vvvvvvvvv')
-    print('...')
-    print('\n結束: ^^^^^^^^ 專案的程式碼 ^^^^^^^^^')
+    YOUR_WIFI_SSID = "YOUR_WIFI_SSIDs"
+    YOUR_WIFI_PSWD = "YOUR_WIFI_PSWD"
 
 # *********** 基本上, 下面程式碼均無須被修改 **********
 import utime as time
